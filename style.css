@@ -381,6 +381,12 @@ body[data-theme='dark'] .hljs-deletion {
   color: inherit;
   opacity: 0.54;
 }
+
+.chat-inputs textarea::-webkit-input-placeholder {
+  color: #525252 !important;
+  padding: 10px;
+}
+
 .chat-message-markdown ::-webkit-search-decoration {
   -webkit-appearance: none;
 }

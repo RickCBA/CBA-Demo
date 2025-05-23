@@ -50,7 +50,7 @@ export async function getInitialMessages() {
           'chat-message-typing',
           'chat-message-typing-animation-bouncing'
         );
-        message2.innerHTML = `<p style="margin: 0"> Hello, Alan here. How can i help?</p>`;
+        message2.innerHTML = `<p style="margin: 0"> Hello, Alan here. How can I help?</p>`;
       }, 4500);
 
       // Show canned message options and enable scroll-Y automatically

@@ -1208,25 +1208,17 @@ body[data-theme='dark'] .hljs-deletion {
 
 /* Chat input area styling */
 #n8n-chat-widget-2 .chat-inputs textarea {
-    font-family: 'Boxly', sans-serif;
     font-size: inherit;
     width: 100%;
     border: none;
-    padding-right: calc(0.8rem + var(--controls-count, 1) * var(--chat--textarea--height));
-    height: 60px;
-    min-height: 60px;
     background: transparent;
-    resize: none;
     color: var(--input-text);
-    padding: 0 0.8rem;
     outline: none;
     display: flex
 ;
     align-items: center;
     justify-content: center;
     position: relative;
-    line-height: 60px;
-    overflow-y: hidden;
 }
 
 .chat-inputs textarea::-webkit-input-placeholder {

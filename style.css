@@ -1232,6 +1232,9 @@ body[data-theme='dark'] .hljs-deletion {
 .chat-inputs textarea::-webkit-input-placeholder {
   color: #525252 !important;
   padding: 10px;
+}
+
+textarea::placeholder {
   line-height: 0;
 }
 

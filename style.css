@@ -1236,6 +1236,7 @@ textarea::placeholder {
   color: var(--button-text);
   border: none;
   width: 60px;
+  height: 100%;
   border-top-left-radius: 0px;
   border-top-right-radius: 32px;
   border-bottom-right-radius: 32px;

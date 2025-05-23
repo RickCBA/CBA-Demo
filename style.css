@@ -1643,13 +1643,6 @@ textarea::placeholder {
     align-items: center;
   }
 
-  #n8n-chat-widget-2 .chat-footer {
-    border-width: 2px;
-    margin-bottom: 5%;
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
-    border-radius: 24px;
-  }
-
   #n8n-chat-widget-2 .chat-message {
     max-width: 100%;
     font-size: 1rem;
@@ -1666,25 +1659,7 @@ textarea::placeholder {
   .chat-overlay {
     backdrop-filter: blur(2px);
   }
-  .chat-inputs[data-v-2a7fb1c3] {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .chat-inputs-controls[data-v-2a7fb1c3] {
-    right: 0.5rem;
-    bottom: 0.5rem;
-  }
-  .chat-inputs textarea[data-v-2a7fb1c3] {
-    font-size: 1.1rem;
-    min-height: 48px;
-    padding: 0.8rem 1rem;
-    border-radius: 18px;
-  }
-  .chat-button {
-    width: 90vw;
-    height: auto;
-    font-size: 0.9rem;
-  }
+
   .chat-messages-list {
     font-size: larger;
   }
@@ -1703,16 +1678,6 @@ textarea::placeholder {
     padding-bottom: 14px;
   }
 
-  #n8n-chat-widget-2 .chat-footer button {
-    width: 56px;
-    height: 56px;
-    font-size: 2rem;
-    border-radius: 50%;
-    right: 0.2rem;
-    top: 0.2rem;
-    bottom: 0.2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-  }
 
   #n8n-chat-widget-2 .chat-message {
     font-size: 1rem;

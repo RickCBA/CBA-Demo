@@ -27,7 +27,7 @@ export async function getInitialMessages() {
           'chat-message-typing',
           'chat-message-typing-animation-bouncing'
         );
-        message.innerHTML = `<p style="margin: 0; font-style: italic;">*We may store personal data and use it to contact you to support your dental needs.See <a href="https://www.sharplesdental.co.uk/privacy-policy" target="_blank" style="color: inherit; text-decoration: underline;">Privacy Policy</a>* </p>`;
+        message.innerHTML = `<p style="margin: 0; font-style: italic;">*We may store personal data and use it to contact you .See <a href="https://closedby.ai/legal/#privacy-policy" target="_blank" style="color: inherit; text-decoration: underline;">Privacy Policy</a>* </p>`;
 
         // First message: typing indicator
         message2.appendChild(typingDiv2);
@@ -50,7 +50,7 @@ export async function getInitialMessages() {
           'chat-message-typing',
           'chat-message-typing-animation-bouncing'
         );
-        message2.innerHTML = `<p style="margin: 0"> Hello, Welcome to Sharples Dental Alan here to assist you!</p>`;
+        message2.innerHTML = `<p style="margin: 0"> Hello, Alan here. How can i help?</p>`;
       }, 4500);
 
       // Show canned message options and enable scroll-Y automatically

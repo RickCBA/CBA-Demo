@@ -1141,6 +1141,7 @@ body[data-theme='dark'] .hljs-deletion {
   max-width: 100%;
   margin-bottom: 10%;
   overflow: hidden;
+  position: relative;
 }
 
 #n8n-chat-widget-2 .chat-inputs textarea::-webkit-scrollbar {
